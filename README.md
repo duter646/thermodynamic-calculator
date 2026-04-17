@@ -80,14 +80,14 @@ python thermodynamics_gui.py
 
 ### 使用建议
 
-- 若只想常规计算：直接填写已知参数，保持全部未锁定。
-- 若想强制指定哪些量是“已知”：勾选对应“锁定”。
+- 直接填写已知参数，保持全部未锁定。
+- (建议)强制指定哪些量是“已知”：勾选对应“锁定”。
 - 若结果出现“无法计算”：说明当前输入不足以支持该公式，补充相关参数即可。
 - 若出现“一致性提示”：表示输入参数之间略有冲突，程序仍会继续计算并提示你复核数据。
 
 ### 适用场景
 
-- 物理化学 / 工程热力学教学与学习
+- 大学物理/物理化学 / 工程热力学教学与学习
 - 理想气体近似下的快速估算
 - 实验前后参数对照与数量级检查
 
@@ -168,8 +168,8 @@ python thermodynamics_gui.py
 
 ### Usage Notes
 
-- For normal usage, enter known values and keep all lock options off.
-- Use lock options when you want to explicitly constrain which variables are treated as known.
+- enter known values and keep all lock options off.
+- (recommended)Use lock options when you want to explicitly constrain which variables are treated as known.
 - If a result says cannot be calculated, more required inputs are needed for that formula.
 - If consistency warnings appear, the app still computes outputs but you should recheck the input data.
 
